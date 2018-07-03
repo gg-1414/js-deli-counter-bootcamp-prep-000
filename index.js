@@ -1,4 +1,5 @@
 var cristinasDeli = [];
+var num = 0;
 
 function takeANumber(cristinasDeliLine, newPerson) {
   cristinasDeliLine.push(newPerson);
@@ -30,5 +31,9 @@ function currentLine(cristinasDeliLine) {
   }
 }
 
-
+function takeANumber2() {
+  num++;
+  cristinasDeli.push(num);
+  return `You are number ${num}.`;
+}
 

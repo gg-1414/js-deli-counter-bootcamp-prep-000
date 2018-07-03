@@ -5,6 +5,8 @@ function takeANumber(cristinasDeliLine, newPerson) {
   cristinasDeliLine.push(newPerson);
   var positionInLine = cristinasDeliLine.length;
   return `Welcome, ${newPerson}. You are number ${positionInLine} in line.`;
+  
+  // return `Welcome, ${newPerson}. You are number ${cristinasDeliLine.length} in line.`;
 }
 
 function nowServing(cristinasDeliLine) {
